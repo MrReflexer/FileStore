@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dadehe3180:gSfL09uT1Pj3OI
 DB_NAME = os.environ.get("DATABASE_NAME", "privatevideos")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "10"))
+TIME = int(os.environ.get("TIME", "600"))
 
 
 #force sub channel id, if you want enable force sub
@@ -74,7 +74,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊ�
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @BeastNetwork18</b>")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
