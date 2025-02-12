@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7987708794"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dadehe3180:gSfL09uT1Pj3OI9p@privatevideos.rokxr.mongodb.net/?retryWrites=true&w=majority&appName=privatevideos")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dadehe3180:ZOeZn1HbWeLE6OqI@privatevideos.rokxr.mongodb.net/?retryWrites=true&w=majority&appName=privatevideos")
 DB_NAME = os.environ.get("DATABASE_NAME", "privatevideos")
 
 #Time in seconds for message delete, put 0 to never delete
